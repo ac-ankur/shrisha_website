@@ -1,0 +1,103 @@
+.navbar {
+  background-color: #702747; /* Background color */
+}
+a.nav-link {
+  margin-right: 50px;
+}
+.navbarhead {
+  margin-bottom: 40px;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 15px;
+  box-shadow: 0px 0px 13px #00000054;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: initial;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  animation: fadeInDown 0.5s both 0.1s;
+  box-shadow: 0px 0px 13px #00000054;
+  width: 100%;
+}
+a.nav-link {
+  color: white !important;
+  font-weight: 600;
+  padding: 10px;
+}
+a.nav-link:hover {
+  padding-bottom: 20p;
+  border-bottom: 2px solid #702747;
+}
+/* Navbar Brand (Logo) */
+.navbar-brand img {
+  max-height: 30px; /* Adjust the height of the logo */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #333333; /* Link color */
+  font-weight: 500; /* Link font weight */
+  transition: color 0.3s ease; /* Smooth color transition */
+  padding: 10px;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Navbar Dropdown */
+.navbar .nav-link.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+/* Navbar Dropdown Menu */
+.dropdown-menu {
+  border: none; /* Remove default dropdown border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.dropdown-item {
+  color: white; /* Dropdown item color */
+  font-weight: 400; /* Dropdown item font weight */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; 
+  
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+  }
+}
+
+.nav-link.active {
+  color: black !important;
+  font-weight: bold;
+
+  background-color: white;
+  border-radius: 10px;
+}
+.dropdown-menu{
+    /* background-color:#702747 !important;
+ */
+    color:white !important;
+
+}
+
+:root {
+    --bs-dropdown-link-color: white; /* Change to your desired color */
+}

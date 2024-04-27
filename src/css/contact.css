@@ -1,0 +1,62 @@
+#offcanvasTop {
+    --bs-offcanvas-height: 100vh;
+    background-color: #c5e1d4;
+  }
+  label.form-label {
+    width: 100%;
+    background: #2d5685;
+    padding: 9px;
+    color: white;
+    margin-bottom: 0px;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 109 253 / 25%);
+}
+.hvr-shutter-out-horizontal.d-block.p-3 {
+  background: #d9e9ff;
+}
+button.contactbtn {
+  margin-bottom: 10px;
+  color: white;
+  background: #702747;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+button.contactbtn:hover{
+  background: #375581;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: 1px solid #375581;
+  border-radius: 0px;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.sec-title h2:before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  bottom: 0px;
+  width: 80px;
+  height: 3px;
+  background-color: #2d5685;
+}
+
+
