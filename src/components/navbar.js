@@ -33,21 +33,21 @@ const NavigationBar = () => {
                 Business Association
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Innovative Solutions" id="basic-nav-dropdown">
+            <NavDropdown title="Innovative Solutions" id="basic-nav-dropdown" >
               {/* <NavDropdown.Item href="#">Audio Visual Solutions</NavDropdown.Item> */}
               <NavDropdown
                 title="Audio Visual Solutions"
-                id="basic-nav-dropdown"
+                id="basic-nav-dropdown audiovideo" 
               >
-                <NavDropdown.Item href="virtual">
+                <NavDropdown.Item href="smartclassroom">
                   {" "}
                   Smart Class Room
                 </NavDropdown.Item>
-                <NavDropdown.Item href="learning">
+                <NavDropdown.Item href="Virtualclassroom">
                   Virtual Class Room
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">Hybrid Class Room</NavDropdown.Item>
-                <NavDropdown.Item href="#">Conference Room </NavDropdown.Item>
+                <NavDropdown.Item href="Hybridclassroom">Hybrid Class Room</NavDropdown.Item>
+                <NavDropdown.Item href="conferenceroom">Conference Room </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown.Item href="virtual">Virtual World</NavDropdown.Item>
               <NavDropdown.Item href="learning">

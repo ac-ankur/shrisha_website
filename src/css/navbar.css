@@ -1,6 +1,10 @@
 .navbar {
   background-color: #702747; /* Background color */
 }
+a#basic-nav-dropdown\ audiovideo{color: black !IMPORTANT;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-bottom: 1px}
 a.nav-link {
   margin-right: 50px;
 }

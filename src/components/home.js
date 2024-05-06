@@ -6,6 +6,7 @@ import classroom from "../image/smartClassroom.jpg";
 import learning from "../image/ELearning.jpg";
 import achievement from "../image/achievement.jpg";
 import vr from "../image/VR.jpg";
+import HeroSlider from "./heroslider";
 export default function Home() {
   return (
     <div>
@@ -46,6 +47,7 @@ export default function Home() {
           </p>
         </div>
       </header>
+      <HeroSlider/>
       <div className="container-fluid">
         <h3 className="serviceBox reveal fade-top">
           Our <span>Services</span>
